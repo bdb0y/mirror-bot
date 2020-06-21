@@ -1,1 +1,1 @@
-worker: python3 /modules/__main__.py
+worker: bash start.sh
