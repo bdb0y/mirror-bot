@@ -1,1 +1,1 @@
-worker /bin/sh -c bash\ start.sh
+worker bash sudo docker build . -t mirror-bot
