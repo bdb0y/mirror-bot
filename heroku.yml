@@ -3,4 +3,4 @@ setup:
     S3_BUCKET: config
 build:
   docker:
-    web: Dockerfile
+    worker: Dockerfile
