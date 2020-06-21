@@ -4,5 +4,3 @@ setup:
 build:
   docker:
     web: Dockerfile
-run:
-  web: /bin/sh -c bash\ start.sh
