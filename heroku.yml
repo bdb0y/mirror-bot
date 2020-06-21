@@ -1,0 +1,7 @@
+setup:
+  config:
+    S3_BUCKET: my-example-bucket
+build:
+  docker:
+    web: Dockerfile
+    worker: worker/Dockerfile
