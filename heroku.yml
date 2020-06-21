@@ -4,5 +4,5 @@ setup:
 build:
   docker:
     worker: Dockerfile
-run:
-  worker: /bin/sh -c bash\ start.sh
+#run:
+#  worker: /bin/sh -c bash\ start.sh
