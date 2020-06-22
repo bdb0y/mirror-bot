@@ -1,6 +1,3 @@
-setup:
-  config:
-    S3_BUCKET: config
 build:
   docker:
     worker: Dockerfile
