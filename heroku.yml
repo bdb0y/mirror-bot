@@ -1,6 +1,6 @@
-setup:
-  config:
-    S3_BUCKET: config
+services:
+  worker:
+    env_file: .env
 build:
   docker:
     worker: Dockerfile
